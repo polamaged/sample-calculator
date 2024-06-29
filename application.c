@@ -37,7 +37,6 @@ int main() {
                 temp_number+=(ret_val_from_kpad-'0');
             }
             else{
-                //12 + 12 - 2 = 22 + 
                 if(last_char == '0'){
                     answer_numebr=temp_number;
                     if(ret_val_from_kpad == '+'){
