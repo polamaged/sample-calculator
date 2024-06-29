@@ -25,7 +25,7 @@ int main() {
             temp_number = 0;
             answer_numebr = 0;
             last_char = '0';
-            ret = lcd_4bit_send_string_position(&lcd , 1 , 6 , "Calculator");
+            ret = lcd_4bit_send_string_position(&lcd , 1 , 6 , "WELCOME");
             __delay_ms(1000);
             ret = lcd_4bit_send_command(&lcd, _LCD_CLEAR);
         }
